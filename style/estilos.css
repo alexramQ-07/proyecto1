@@ -1,0 +1,167 @@
+body{
+
+    background:rgb(17,17,17);
+    margin: 0;
+    color:white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13.5px;
+
+}
+
+.header::after{
+    content: '';
+height: 100vh;
+width: 100%;
+background-image: url("../imh/logo2.jpg");
+background-size: cover;
+display: block;
+background-repeat: no-repeat;
+background-position: center;
+background-attachment: fixed;
+filter: blur(9px);
+-ms-filter: blur(5px);
+transition-timing-function: ease;
+
+}
+
+.header:hover::after{
+    filter: blur(0px);
+    -ms-filter: blur(0px);
+}
+.header:hover .header-content{
+
+    filter: blur(2px);
+    -ms-filter: blur(2px);
+}
+
+.bg-dark-75 {
+    background-color: rgba(0, 0, 0, 0.75);
+    color: #fff;
+    font-size: 17px;
+    padding: 10px;
+}
+
+.header-content{
+
+    position: absolute;
+    z-index: 1;
+    top: 20%;
+    left:50%;
+    margin-top:200px;
+    margin-left: 250px;
+    text-align: center;
+    width: 360px;
+    height: 360px;
+}
+}
+.header-content.logo{
+    width: 360px;
+    height: 360px;
+}
+
+
+.text-center{
+    text-align: center;
+    margin: auto;
+}
+
+.tcolor{
+    color:white;
+}
+.tamaño{
+font-size:40px;
+font-family: Impact;
+}
+#title{
+font-size: 28px;
+font-family: Impact;
+}
+.text{
+line-height: 1.7;
+margin-top: 1rem;
+}
+.content{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-gap: 30px;
+
+}
+.title{
+
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.content{
+    margin: auto;
+    overflow: hidden;
+    padding: 4rem 1rem;
+    text-align: center;
+}
+@media(max-width:560px){
+.header::after{
+    height: 50vh;    
+}
+.header-content{
+    top: 10%;
+    margin-top: 140px;
+    left: 5%;
+    margin-left: 0px;
+
+}
+.header-content .logo{
+   width: 140px;
+   height: 140px
+
+}
+.header-content>p{
+    display: none;
+}
+
+.tamaño{
+font-size: 20px;
+
+}
+#title{
+    font-size: 14px;
+}
+.content{
+    grid-template-columns: 1fr;
+}
+}
+
+
+
+.footer {
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+.blockquote-slide {
+	font-size: 80%;
+	color: #6c757d;
+}
+
+.aclaration {
+	background-color: rgba(0, 0, 0, 0.9);
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.blur_t {
+	color: rgba(255, 255, 255, 0.75);
+}
+
+.blur_t:hover {
+	color: rgba(255, 255, 255, 0.95);
+}
+
+.f{
+color:white;
+}
+.y{
+    color:white;
+}
+.w{
+    color:white;
+}
